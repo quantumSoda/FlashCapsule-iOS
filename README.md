@@ -6,6 +6,32 @@
 
 ---
 
+## 🎥 Demonstration | 操作演示
+
+*[在此处直接拖入你的操作演示视频 (Drop your MP4/MOV file here)]*
+
+---
+
+## 🚀 Deployment | 极速部署
+
+### Step 1: Install Shortcuts | 安装逻辑核心
+Download the iOS Shortcuts directly. The system will automatically configure your Apple Notes structure upon the first trigger.  
+直接下载快捷指令。系统在首次触发时会自动完成备忘录的文件架构部署，零人工干预。
+
+* 👉 [Download FlashCapsule - Voice | 下载“闪念胶囊—录音”](https://www.icloud.com/shortcuts/c1213d61708d48a29ed2e159af8761e2)
+* 👉 [Download FlashCapsule - Typing | 下载“闪念胶囊—打字”](https://www.icloud.com/shortcuts/0d372ae3143e4ed4b4c9b37a9d269716)
+
+### Step 2: Hardware Mapping | 硬件映射
+Bind the software logic to your physical hardware constraint.
+将软件逻辑锚定至物理硬件。
+
+1.  Go to **Settings** > **Accessibility** > **Touch** > **Back Tap**.
+2.  Assign your preferred Shortcut to **Double Tap** or **Triple Tap**.
+1.  进入 **设置** > **辅助功能** > **触控** > **轻点背面**。
+2.  将对应的快捷指令绑定至 **轻点两下** 或 **轻点三下**。
+
+---
+
 ## ⚡ The Philosophy | 核心理念
 
 **[English]** Human working memory is highly volatile. Every second spent unlocking a device, locating an app, and manually typing introduces **cognitive friction** that degrades the original thought. For minds that process information rapidly, or those navigating ADHD, this slight delay often results in the permanent loss of an idea. FlashCapsule is a 100% native iOS automation system designed to eliminate this friction. By transforming your iPhone into an instant, seamless extension of your brain, it acts as an external executive function, protecting your psychological bandwidth and optimizing cognitive efficiency.
@@ -34,30 +60,10 @@
 
 ## 🏗 Architecture | 系统架构
 
-The system operates entirely on native iOS frameworks, ensuring absolute stability, zero network latency, and maximum privacy. The architecture is fully automated, instantiating necessary directories and files upon first run without manual setup.
-系统完全基于 iOS 原生框架运行，确保绝对的稳定性、零网络延迟以及最高级别的隐私保护。系统架构已实现全自动化，首次运行时自动构建所需的文件夹与备忘录实例，零人工干预。
+The system operates entirely on native iOS frameworks, ensuring absolute stability, zero network latency, and maximum privacy.
+系统完全基于 iOS 原生框架运行，确保绝对的稳定性、零网络延迟以及最高级别的隐私保护。
 
 `Physical Trigger (Back Tap)` ➔ `Existence Validation & Auto-Creation` ➔ `Content Capture` ➔ `Data Assembly & Append`
-
----
-
-## 🚀 Deployment | 部署指南
-
-### Step 1: Install Shortcuts | 安装逻辑核心
-Download the iOS Shortcuts directly. The system will automatically configure your Apple Notes structure upon the first trigger.  
-直接下载快捷指令。系统在首次触发时会自动完成备忘录的文件架构部署。
-
-* 👉 [Download FlashCapsule - Voice | 下载“闪念胶囊—录音”] (https://www.icloud.com/shortcuts/7b60dc0ddcb047f48c7ca03c74f1cf14)
-* 👉 [Download FlashCapsule - Typing | 下载“闪念胶囊—打字”] (https://www.icloud.com/shortcuts/1dcb0f5fd3274c188b0941a4aa189ff1)
-
-### Step 2: Hardware Mapping | 硬件映射
-Bind the software logic to your physical hardware constraint.
-将软件逻辑锚定至物理硬件。
-
-1.  Go to **Settings** > **Accessibility** > **Touch** > **Back Tap**.
-2.  Assign your preferred Shortcut to **Double Tap** or **Triple Tap**.
-1.  进入 **设置** > **辅助功能** > **触控** > **轻点背面**。
-2.  将对应的快捷指令绑定至 **轻点两下** 或 **轻点三下**。
 
 ---
 
