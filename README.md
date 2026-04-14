@@ -1,57 +1,67 @@
 # 🧠 FlashCapsule: Zero-Friction Cognitive Offloader
+# 🧠 闪念胶囊：零摩擦认知外包系统
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![iOS: 16+](https://img.shields.io/badge/iOS-16%2B-blue.svg)]()
-[![Privacy: Local First](https://img.shields.io/badge/Privacy-Local_First-success.svg)]()
+[![Environment: Pure iOS Native](https://img.shields.io/badge/Environment-Pure_iOS_Native-success.svg)]()
 
-*A hardware-triggered, local-first thought capture system designed to minimize cognitive load and protect psychological bandwidth.*
+---
 
-## ⚡ The Philosophy
+## ⚡ The Philosophy | 核心理念
 
-Human working memory is highly volatile. Every second spent unlocking a device, locating an app, and manually typing introduces **cognitive friction** that degrades the original thought. 
+**[English]** Human working memory is highly volatile. Every second spent unlocking a device, locating an app, and manually typing introduces **cognitive friction** that degrades the original thought. For minds that process information rapidly, or those navigating ADHD, this slight delay often results in the permanent loss of an idea. FlashCapsule is a 100% native iOS automation system designed to eliminate this friction. By transforming your iPhone into an instant, seamless extension of your brain, it acts as an external executive function, protecting your psychological bandwidth and optimizing cognitive efficiency.
 
-FlashCapsule bypasses this completely. By mapping a complex automation workflow to a physical hardware trigger (iPhone Back Tap), it transforms the device into an instant extension of your brain. Thoughts are captured, transcribed locally, and archived securely with zero conscious effort.
+**[中文]** 人类的工作记忆极度易挥发。从产生灵感到解锁设备、寻找 App、开始录入，其中每一秒的延迟都会产生**认知摩擦**。对于思维运转极快，或是带有 ADHD 特质的大脑而言，这种延迟往往意味着灵感的永久丢失。闪念胶囊是一套 100% 纯原生的 iOS 自动化系统，旨在彻底消除这种摩擦。通过将 iPhone 转化为大脑的无缝延伸，它承担了外部“执行功能”的作用，有效保护你的心理带宽并实现极速的认知归档。
 
-## 🏗 System Architecture
+---
 
-The system operates entirely on-device, ensuring zero network latency and absolute privacy.
+## 🛠 Features | 功能特性
 
-`Physical Back Tap` ➔ `Microphone Capture` ➔ `Local Whisper Decoding (Aiko)` ➔ `Data Assembly` ➔ `Apple Notes Integration`
+### 1. 🎙 FlashCapsule - Voice | 闪念胶囊—录音
+* **Hardware Trigger:** Activate via Double/Triple Back Tap.
+* **Native Engine:** Instant audio capture and text transcription using built-in iOS actions.
+* **Rich Archiving:** Automatically appends the timestamp, transcription, and original audio file to a daily note.
+* **物理触发：** 通过轻敲 iPhone 背部直接唤醒。
+* **原生引擎：** 使用 iOS 内置动作实现即时录音与高精度文本转写。
+* **多维归档：** 自动在当日备注中追加时间戳、转写文字及原始音频文件。
 
-1. **Existence Validation:** The script checks for today's designated "Capsule" note. If it doesn't exist, it instantiates one.
-2. **Audio Capture:** Instantly records the user's voice memo.
-3. **Dimensionality Reduction:** Passes the audio payload to the Aiko engine (powered by OpenAI's Whisper model running locally).
-4. **Data Assembly:** Formats the transcribed text with an exact timestamp and appends both the text and the original audio file to the daily Capsule note.
+### 2. ⌨️ FlashCapsule - Typing | 闪念胶囊—打字
+* **High Efficiency:** A minimalist input box appears instantly for quick text entry.
+* **Logic-First:** Automatically creates a daily-titled note if one doesn't exist.
+* **极速录入：** 弹出极简输入框，适合在不便发声的场景下快速记录。
+* **逻辑自理：** 自动检索当日备忘录，若不存在则按日期命名并自动创建。
 
-## ⚙️ Prerequisites
+---
 
-To deploy this system, your environment must have:
-* **iOS 16** or later.
-* **Apple Notes** (Native app).
-* **[Aiko](https://apps.apple.com/us/app/aiko/id1672085276)** (A free, high-quality local Whisper transcription app by Sindre Sorhus).
+## 🏗 Architecture | 系统架构
 
-## 🚀 Deployment Guide
+The system operates entirely on native iOS frameworks, ensuring absolute stability, zero network latency, and maximum privacy. The architecture is fully automated, instantiating necessary directories and files upon first run without manual setup.
+系统完全基于 iOS 原生框架运行，确保绝对的稳定性、零网络延迟以及最高级别的隐私保护。系统架构已实现全自动化，首次运行时自动构建所需的文件夹与备忘录实例，零人工干预。
 
-### Step 1: Initialize Storage
-Open your Apple Notes app and create a new folder named exactly: `闪记胶囊` (or modify the Shortcut to match your preferred folder name).
+`Physical Trigger (Back Tap)` ➔ `Existence Validation & Auto-Creation` ➔ `Content Capture` ➔ `Data Assembly & Append`
 
-### Step 2: Install the Logic Core
-Download and install the pre-compiled iOS Shortcut:
-👉 **[INSERT YOUR ICLOUD SHORTCUT LINK HERE]**
+---
 
-### Step 3: Hardware Mapping (The Magic)
-Bind the software logic to the physical hardware:
-1. Go to **Settings** > **Accessibility** > **Touch**.
-2. Scroll down to **Back Tap**.
-3. Select **Double Tap** (or Triple Tap).
-4. Scroll to the bottom *Shortcuts* section and select **FlashCapsule** (or whatever you named the downloaded shortcut).
+## 🚀 Deployment | 部署指南
 
-## 🔮 Future Roadmap
+### Step 1: Install Shortcuts | 安装逻辑核心
+Download the iOS Shortcuts directly. The system will automatically configure your Apple Notes structure upon the first trigger.  
+直接下载快捷指令。系统在首次触发时会自动完成备忘录的文件架构部署。
 
-- [ ] Automatic extraction of actionable tasks (TODOs) from the transcript.
-- [ ] Daily summary generation via LLM API integration.
-- [ ] Auto-syncing capabilities to Obsidian/Notion via webhooks.
+* 👉 [Download FlashCapsule - Voice | 下载“闪念胶囊—录音”] (https://www.icloud.com/shortcuts/7b60dc0ddcb047f48c7ca03c74f1cf14)
+* 👉 [Download FlashCapsule - Typing | 下载“闪念胶囊—打字”] (https://www.icloud.com/shortcuts/1dcb0f5fd3274c188b0941a4aa189ff1)
 
-## 🛡 License
+### Step 2: Hardware Mapping | 硬件映射
+Bind the software logic to your physical hardware constraint.
+将软件逻辑锚定至物理硬件。
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. Let's optimize human biological efficiency together.
+1.  Go to **Settings** > **Accessibility** > **Touch** > **Back Tap**.
+2.  Assign your preferred Shortcut to **Double Tap** or **Triple Tap**.
+1.  进入 **设置** > **辅助功能** > **触控** > **轻点背面**。
+2.  将对应的快捷指令绑定至 **轻点两下** 或 **轻点三下**。
+
+---
+
+## 🛡 License | 开源协议
+
+This project is licensed under the MIT License. Let's optimize human biological efficiency together.  
+本项目采用 MIT 开源协议。让我们共同优化人类的生存效率。
