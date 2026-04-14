@@ -12,9 +12,13 @@
 
 ---
 
-## 🚀 Deployment | 极速部署
+## 🚀 Deployment | 极速部署## 🚀 Deployment | 极速部署
 
-### Step 1: Install Shortcuts | 安装逻辑核心
+### Step 1: Initialize Storage | 准备容器
+This is a mandatory prerequisite. Open **Apple Notes** and create a new folder named exactly: `闪念胶囊` (FlashCapsule).  
+**这是必须的前置步骤。** 请打开你的 **备忘录** App，手动创建一个名为 `闪念胶囊` 的文件夹。
+
+### Step 2: Install Shortcuts | 安装逻辑核心
 Download the iOS Shortcuts directly. The system will automatically configure your Apple Notes structure upon the first trigger.  
 直接下载快捷指令。系统在首次触发时会自动完成备忘录的文件架构部署，零人工干预。
 
