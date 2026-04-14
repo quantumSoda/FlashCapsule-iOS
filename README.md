@@ -12,7 +12,7 @@
 
 ---
 
-## 🚀 Deployment | 极速部署## 🚀 Deployment | 极速部署
+## 🚀 Deployment | 极速部署
 
 ### Step 1: Initialize Storage | 准备容器
 This is a mandatory prerequisite. Open **Apple Notes** and create a new folder named exactly: `闪念胶囊` (FlashCapsule).  
